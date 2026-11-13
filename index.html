@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>진미 | Game · XR</title>
+  <meta name="description" content="Unity · XR 게임과 웹앱을 만드는 진미의 포트폴리오 — 기획, 구성, 설정, 실제 코드">
+  <meta property="og:title" content="진미 | Game · XR">
+  <meta property="og:description" content="DodgeGraze · BunnyRunning · TPS · VR Beat Saber · VR Bowling · c-master · URURU">
+  <meta property="og:image" content="assets/img/graze/00.jpg">
+  <meta name="theme-color" content="#0b0f14">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230b0f14'/><text x='50%' y='58%' font-family='monospace' font-size='34' font-weight='700' fill='%237ee787' text-anchor='middle' dominant-baseline='middle'>&gt;_</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <pre id="bgcode" aria-hidden="true"></pre>
+
+  <div class="ide">
+    <header class="titlebar">
+      <button id="menu" class="menu" aria-label="탐색기 열기">☰</button>
+      <div class="lights"><i></i><i></i><i></i></div>
+      <div class="tb-title">mijin1996 / portfolio — <b>진미 · Game · XR</b></div>
+      <a class="tb-gh" href="https://github.com/mijin1996" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg> GitHub</a>
+    </header>
+
+    <nav class="activity" aria-hidden="true">
+      <span class="on">❐</span><span>⌕</span><span>⎇</span><span>▷</span><span>⧉</span>
+    </nav>
+
+    <aside class="explorer" id="explorer"></aside>
+
+    <main class="main">
+      <div class="tabs">
+        <div class="tab on"><span class="dot t-md"></span><span id="cur-tab">README.md</span><span class="x">×</span></div>
+      </div>
+      <div class="scroll" id="scroll">
+        <section id="home"></section>
+        <section id="projects"></section>
+        <div id="details"></div>
+        <section id="team"></section>
+        <section id="contact"></section>
+      </div>
+    </main>
+
+    <footer class="statusbar">
+      <span class="sb-branch">⎇ master</span>
+      <span>✓ 0 problems</span>
+      <span id="sb-repos"></span>
+      <span class="sb-sp"></span>
+      <span id="sb-file">README.md</span>
+      <span>UTF-8</span>
+      <span id="sb-lang">Markdown</span>
+      <span id="sb-time"></span>
+    </footer>
+  </div>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-label="이미지 크게 보기"><img alt=""></div>
+  <div class="toast" id="toast" role="status"></div>
+
+  <script src="js/projects.js"></script>
+  <script src="js/highlight.js"></script>
+  <script src="js/noise.js"></script>
+  <script src="js/cubes.js"></script>
+  <script src="js/scramble.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
